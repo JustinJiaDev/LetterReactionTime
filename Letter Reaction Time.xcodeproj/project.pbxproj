@@ -12,12 +12,14 @@
 		0764652F177582D20087AD27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0764652E177582D20087AD27 /* main.m */; };
 		07646533177582D20087AD27 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 07646531177582D20087AD27 /* Credits.rtf */; };
 		07646536177582D20087AD27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07646535177582D20087AD27 /* AppDelegate.m */; };
-		07646539177582D20087AD27 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07646537177582D20087AD27 /* MainMenu.xib */; };
 		0764653B177582D20087AD27 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0764653A177582D20087AD27 /* Images.xcassets */; };
 		07646542177582D20087AD27 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07646541177582D20087AD27 /* XCTest.framework */; };
 		07646543177582D20087AD27 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07646522177582D20087AD27 /* Cocoa.framework */; };
 		0764654B177582D20087AD27 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07646549177582D20087AD27 /* InfoPlist.strings */; };
 		0764654D177582D20087AD27 /* Letter_Reaction_TimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0764654C177582D20087AD27 /* Letter_Reaction_TimeTests.m */; };
+		07646557177587560087AD27 /* VocabSources.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07646556177587560087AD27 /* VocabSources.plist */; };
+		07646559177589080087AD27 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07646537177582D20087AD27 /* MainMenu.xib */; };
+		0764655E177597B50087AD27 /* FontDescriptions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0764655D177593D80087AD27 /* FontDescriptions.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		07646548177582D20087AD27 /* Letter Reaction TimeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Letter Reaction TimeTests-Info.plist"; sourceTree = "<group>"; };
 		0764654A177582D20087AD27 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0764654C177582D20087AD27 /* Letter_Reaction_TimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Letter_Reaction_TimeTests.m; sourceTree = "<group>"; };
+		07646556177587560087AD27 /* VocabSources.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = VocabSources.plist; sourceTree = "<group>"; };
+		0764655D177593D80087AD27 /* FontDescriptions.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = FontDescriptions.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +132,8 @@
 			isa = PBXGroup;
 			children = (
 				0764652A177582D20087AD27 /* Letter Reaction Time-Info.plist */,
+				07646556177587560087AD27 /* VocabSources.plist */,
+				0764655D177593D80087AD27 /* FontDescriptions.plist */,
 				0764652B177582D20087AD27 /* InfoPlist.strings */,
 				0764652E177582D20087AD27 /* main.m */,
 				07646530177582D20087AD27 /* Letter Reaction Time-Prefix.pch */,
@@ -230,10 +236,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07646559177589080087AD27 /* MainMenu.xib in Resources */,
 				0764652D177582D20087AD27 /* InfoPlist.strings in Resources */,
 				0764653B177582D20087AD27 /* Images.xcassets in Resources */,
 				07646533177582D20087AD27 /* Credits.rtf in Resources */,
-				07646539177582D20087AD27 /* MainMenu.xib in Resources */,
+				0764655E177597B50087AD27 /* FontDescriptions.plist in Resources */,
+				07646557177587560087AD27 /* VocabSources.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,6 +474,7 @@
 				07646552177582D20087AD27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07646553177582D20087AD27 /* Build configuration list for PBXNativeTarget "Letter Reaction TimeTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +483,7 @@
 				07646555177582D20087AD27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

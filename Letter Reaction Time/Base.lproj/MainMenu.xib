@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="4439" systemVersion="13A451" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="4457.6" systemVersion="12E55" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="4439"/>
+        <deployment defaultVersion="1080" identifier="macosx"/>
+        <development version="5000" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="4457.6"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
@@ -439,19 +441,23 @@
                 </menuItem>
             </items>
         </menu>
-        <window title="Letter Reaction Time" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="371">
-            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
-            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="335" y="390" width="480" height="360"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1418"/>
-            <view key="contentView" id="372">
-                <rect key="frame" x="0.0" y="0.0" width="480" height="360"/>
-                <autoresizingMask key="autoresizingMask"/>
-            </view>
-        </window>
         <customObject id="494" customClass="AppDelegate">
             <connections>
-                <outlet property="window" destination="371" id="532"/>
+                <action selector="bButtonTapped:" destination="wMW-BO-Qra" id="7F7-4u-kxA"/>
+                <action selector="nButtonTapped:" destination="yS6-6E-F02" id="EyO-qk-cI0"/>
+                <action selector="saveResultsButtonTapped:" destination="mrn-Br-4rq" id="iFp-hZ-jns"/>
+                <action selector="startAgainButtonTapped:" destination="eKE-8K-EB2" id="NVg-Oy-Qyu"/>
+                <action selector="startButtonTapped:" destination="cif-vH-q6y" id="x5r-GR-AmT"/>
+                <action selector="vButtonTapped:" destination="udd-ul-3xK" id="6Qb-bC-dGx"/>
+                <outlet property="bButton" destination="wMW-BO-Qra" id="tcb-fM-uQV"/>
+                <outlet property="hint" destination="v3K-KV-w0S" id="4um-H4-jxF"/>
+                <outlet property="nButton" destination="yS6-6E-F02" id="58v-oD-lVP"/>
+                <outlet property="saveResultsButton" destination="mrn-Br-4rq" id="iA1-tg-cRK"/>
+                <outlet property="startAgainButton" destination="eKE-8K-EB2" id="cyV-Le-nky"/>
+                <outlet property="startButton" destination="cif-vH-q6y" id="C7R-xw-PhN"/>
+                <outlet property="textField" destination="5Wf-CN-dir" id="7mh-bT-4ru"/>
+                <outlet property="vButton" destination="udd-ul-3xK" id="ziF-En-C9I"/>
+                <outlet property="window" destination="eRr-v0-TOr" id="hfA-ns-LXI"/>
             </connections>
         </customObject>
         <customObject id="420" customClass="NSFontManager">
@@ -463,5 +469,122 @@
                 <action selector="orderFrontFontPanel:" destination="389" id="424"/>
             </connections>
         </customObject>
+        <window title="Letter Reaction Time" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="eRr-v0-TOr">
+            <windowStyleMask key="styleMask" titled="YES"/>
+            <windowCollectionBehavior key="collectionBehavior" fullScreenPrimary="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="456" y="217" width="558" height="452"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="900"/>
+            <view key="contentView" id="d31-08-ViV">
+                <rect key="frame" x="0.0" y="0.0" width="558" height="452"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textField verticalHuggingPriority="750" mirrorLayoutDirectionWhenInternationalizing="always" translatesAutoresizingMaskIntoConstraints="NO" id="5Wf-CN-dir">
+                        <rect key="frame" x="-3" y="183" width="564" height="86"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" placeholderString="" id="Mjn-m5-nLn">
+                            <font key="font" size="72" name="HelveticaNeue-Light"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="cif-vH-q6y">
+                        <rect key="frame" x="230" y="29" width="98" height="17"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="98" id="uZJ-HW-mlJ"/>
+                        </constraints>
+                        <buttonCell key="cell" type="inline" title="I'm ready" bezelStyle="inline" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="mea-OM-j7o">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="smallSystemBold"/>
+                        </buttonCell>
+                    </button>
+                    <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="v3K-KV-w0S">
+                        <rect key="frame" x="88" y="54" width="382" height="17"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Be prepared, experiment will start after you tap the button." id="iwO-JW-NbE">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" red="0.63921570780000003" green="0.2823529541" blue="0.3058823645" alpha="1" colorSpace="deviceRGB"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <button horizontalHuggingPriority="750" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="wMW-BO-Qra">
+                        <rect key="frame" x="260" y="0.0" width="39" height="28"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="39" id="IMU-Mi-Qwn"/>
+                        </constraints>
+                        <buttonCell key="cell" type="disclosureTriangle" bezelStyle="disclosure" imagePosition="above" alignment="center" borderStyle="border" imageScaling="proportionallyDown" id="H6z-Tu-Wjg">
+                            <behavior key="behavior" pushIn="YES" changeBackground="YES" changeGray="YES" lightByContents="YES"/>
+                            <font key="font" metaFont="system"/>
+                            <string key="keyEquivalent">b</string>
+                        </buttonCell>
+                    </button>
+                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="udd-ul-3xK">
+                        <rect key="frame" x="213" y="5" width="39" height="17"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="39" id="Ia4-Wo-JEl"/>
+                        </constraints>
+                        <buttonCell key="cell" type="inline" title="V" bezelStyle="inline" imagePosition="above" alignment="center" borderStyle="border" imageScaling="proportionallyDown" id="QWB-Bw-BGR">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="smallSystemBold"/>
+                            <string key="keyEquivalent">v</string>
+                        </buttonCell>
+                    </button>
+                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="yS6-6E-F02">
+                        <rect key="frame" x="307" y="5" width="39" height="17"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="39" id="FBL-bS-J1Y"/>
+                        </constraints>
+                        <buttonCell key="cell" type="inline" title="N" bezelStyle="inline" imagePosition="above" alignment="center" borderStyle="border" imageScaling="proportionallyDown" id="Q0m-KE-qyT">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="smallSystemBold"/>
+                            <string key="keyEquivalent">n</string>
+                        </buttonCell>
+                    </button>
+                    <button verticalHuggingPriority="750" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mrn-Br-4rq">
+                        <rect key="frame" x="230" y="102" width="98" height="17"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="98" id="Bn8-Wj-O1H"/>
+                        </constraints>
+                        <buttonCell key="cell" type="inline" title="save results" bezelStyle="inline" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="zV2-gp-UEy">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="smallSystemBold"/>
+                        </buttonCell>
+                    </button>
+                    <button verticalHuggingPriority="750" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eKE-8K-EB2">
+                        <rect key="frame" x="230" y="78" width="98" height="17"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="98" id="50D-Sq-D9u"/>
+                        </constraints>
+                        <buttonCell key="cell" type="inline" title="start again" bezelStyle="inline" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="S40-dG-OBW">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="smallSystemBold"/>
+                        </buttonCell>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="yS6-6E-F02" firstAttribute="top" secondItem="cif-vH-q6y" secondAttribute="bottom" constant="8" symbolic="YES" id="911-YM-nMc"/>
+                    <constraint firstItem="wMW-BO-Qra" firstAttribute="bottom" secondItem="d31-08-ViV" secondAttribute="bottom" id="BLS-NG-05r"/>
+                    <constraint firstItem="v3K-KV-w0S" firstAttribute="centerX" secondItem="d31-08-ViV" secondAttribute="centerX" id="EDu-na-Zgw"/>
+                    <constraint firstItem="wMW-BO-Qra" firstAttribute="centerX" secondItem="cif-vH-q6y" secondAttribute="centerX" id="FVE-bz-lmz"/>
+                    <constraint firstItem="5Wf-CN-dir" firstAttribute="leading" secondItem="d31-08-ViV" secondAttribute="leading" id="Fmh-kx-abU"/>
+                    <constraint firstItem="yS6-6E-F02" firstAttribute="leading" secondItem="wMW-BO-Qra" secondAttribute="trailing" constant="8" symbolic="YES" id="Lnq-es-MPx"/>
+                    <constraint firstItem="wMW-BO-Qra" firstAttribute="centerX" secondItem="v3K-KV-w0S" secondAttribute="centerX" id="PXD-c3-etR"/>
+                    <constraint firstItem="5Wf-CN-dir" firstAttribute="centerX" secondItem="v3K-KV-w0S" secondAttribute="centerX" id="QE0-vg-pju"/>
+                    <constraint firstItem="udd-ul-3xK" firstAttribute="top" secondItem="cif-vH-q6y" secondAttribute="bottom" constant="8" symbolic="YES" id="VvQ-Y0-Dg8"/>
+                    <constraint firstItem="5Wf-CN-dir" firstAttribute="centerY" secondItem="d31-08-ViV" secondAttribute="centerY" id="XXW-HC-0qF"/>
+                    <constraint firstItem="wMW-BO-Qra" firstAttribute="leading" secondItem="udd-ul-3xK" secondAttribute="trailing" constant="8" symbolic="YES" id="YAW-nx-KV6"/>
+                    <constraint firstItem="wMW-BO-Qra" firstAttribute="centerY" secondItem="udd-ul-3xK" secondAttribute="centerY" id="Zfr-Yr-Q96"/>
+                    <constraint firstItem="udd-ul-3xK" firstAttribute="baseline" secondItem="yS6-6E-F02" secondAttribute="baseline" id="feG-0q-d78"/>
+                    <constraint firstItem="cif-vH-q6y" firstAttribute="top" secondItem="v3K-KV-w0S" secondAttribute="bottom" constant="8" symbolic="YES" id="och-9V-ngB"/>
+                    <constraint firstItem="wMW-BO-Qra" firstAttribute="top" secondItem="cif-vH-q6y" secondAttribute="bottom" constant="2" id="zgU-Sv-k4X"/>
+                </constraints>
+            </view>
+        </window>
     </objects>
 </document>

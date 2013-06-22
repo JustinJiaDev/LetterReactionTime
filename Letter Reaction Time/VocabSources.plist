@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Verbs</key>
+	<array>
+		<string>accept</string>
+		<string>achieve</string>
+		<string>advertise</string>
+		<string>appear</string>
+		<string>believe</string>
+		<string>collects</string>
+		<string>catches</string>
+		<string>creates</string>
+		<string>communicate</string>
+		<string>unserstand</string>
+	</array>
+	<key>Nouns</key>
+	<array>
+		<string>ability</string>
+		<string>activity</string>
+		<string>bamboo</string>
+		<string>music</string>
+		<string>movie</string>
+		<string>sister</string>
+		<string>stars</string>
+		<string>timers</string>
+		<string>ceiling</string>
+		<string>hall</string>
+	</array>
+</dict>
+</plist>
