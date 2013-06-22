@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07646523177582D20087AD27 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07646522177582D20087AD27 /* Cocoa.framework */; };
+		0764652D177582D20087AD27 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0764652B177582D20087AD27 /* InfoPlist.strings */; };
+		0764652F177582D20087AD27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0764652E177582D20087AD27 /* main.m */; };
+		07646533177582D20087AD27 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 07646531177582D20087AD27 /* Credits.rtf */; };
+		07646536177582D20087AD27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07646535177582D20087AD27 /* AppDelegate.m */; };
+		07646539177582D20087AD27 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07646537177582D20087AD27 /* MainMenu.xib */; };
+		0764653B177582D20087AD27 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0764653A177582D20087AD27 /* Images.xcassets */; };
+		07646542177582D20087AD27 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07646541177582D20087AD27 /* XCTest.framework */; };
+		07646543177582D20087AD27 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07646522177582D20087AD27 /* Cocoa.framework */; };
+		0764654B177582D20087AD27 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07646549177582D20087AD27 /* InfoPlist.strings */; };
+		0764654D177582D20087AD27 /* Letter_Reaction_TimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0764654C177582D20087AD27 /* Letter_Reaction_TimeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07646544177582D20087AD27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07646517177582D20087AD27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0764651E177582D20087AD27;
+			remoteInfo = "Letter Reaction Time";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0764651F177582D20087AD27 /* Letter Reaction Time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Letter Reaction Time.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07646522177582D20087AD27 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		07646525177582D20087AD27 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		07646526177582D20087AD27 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		07646527177582D20087AD27 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0764652A177582D20087AD27 /* Letter Reaction Time-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Letter Reaction Time-Info.plist"; sourceTree = "<group>"; };
+		0764652C177582D20087AD27 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0764652E177582D20087AD27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07646530177582D20087AD27 /* Letter Reaction Time-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Letter Reaction Time-Prefix.pch"; sourceTree = "<group>"; };
+		07646532177582D20087AD27 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		07646534177582D20087AD27 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		07646535177582D20087AD27 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		07646538177582D20087AD27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0764653A177582D20087AD27 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		07646540177582D20087AD27 /* Letter Reaction TimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = folder; includeInIndex = 0; path = "Letter Reaction TimeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07646541177582D20087AD27 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		07646548177582D20087AD27 /* Letter Reaction TimeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Letter Reaction TimeTests-Info.plist"; sourceTree = "<group>"; };
+		0764654A177582D20087AD27 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0764654C177582D20087AD27 /* Letter_Reaction_TimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Letter_Reaction_TimeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0764651C177582D20087AD27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07646523177582D20087AD27 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0764653D177582D20087AD27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07646543177582D20087AD27 /* Cocoa.framework in Frameworks */,
+				07646542177582D20087AD27 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07646516177582D20087AD27 = {
+			isa = PBXGroup;
+			children = (
+				07646528177582D20087AD27 /* Letter Reaction Time */,
+				07646546177582D20087AD27 /* Letter Reaction TimeTests */,
+				07646521177582D20087AD27 /* Frameworks */,
+				07646520177582D20087AD27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07646520177582D20087AD27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0764651F177582D20087AD27 /* Letter Reaction Time.app */,
+				07646540177582D20087AD27 /* Letter Reaction TimeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07646521177582D20087AD27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07646522177582D20087AD27 /* Cocoa.framework */,
+				07646541177582D20087AD27 /* XCTest.framework */,
+				07646524177582D20087AD27 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		07646524177582D20087AD27 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07646525177582D20087AD27 /* AppKit.framework */,
+				07646526177582D20087AD27 /* CoreData.framework */,
+				07646527177582D20087AD27 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		07646528177582D20087AD27 /* Letter Reaction Time */ = {
+			isa = PBXGroup;
+			children = (
+				07646534177582D20087AD27 /* AppDelegate.h */,
+				07646535177582D20087AD27 /* AppDelegate.m */,
+				07646537177582D20087AD27 /* MainMenu.xib */,
+				0764653A177582D20087AD27 /* Images.xcassets */,
+				07646529177582D20087AD27 /* Supporting Files */,
+			);
+			path = "Letter Reaction Time";
+			sourceTree = "<group>";
+		};
+		07646529177582D20087AD27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0764652A177582D20087AD27 /* Letter Reaction Time-Info.plist */,
+				0764652B177582D20087AD27 /* InfoPlist.strings */,
+				0764652E177582D20087AD27 /* main.m */,
+				07646530177582D20087AD27 /* Letter Reaction Time-Prefix.pch */,
+				07646531177582D20087AD27 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07646546177582D20087AD27 /* Letter Reaction TimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				0764654C177582D20087AD27 /* Letter_Reaction_TimeTests.m */,
+				07646547177582D20087AD27 /* Supporting Files */,
+			);
+			path = "Letter Reaction TimeTests";
+			sourceTree = "<group>";
+		};
+		07646547177582D20087AD27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07646548177582D20087AD27 /* Letter Reaction TimeTests-Info.plist */,
+				07646549177582D20087AD27 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0764651E177582D20087AD27 /* Letter Reaction Time */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07646550177582D20087AD27 /* Build configuration list for PBXNativeTarget "Letter Reaction Time" */;
+			buildPhases = (
+				0764651B177582D20087AD27 /* Sources */,
+				0764651C177582D20087AD27 /* Frameworks */,
+				0764651D177582D20087AD27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Letter Reaction Time";
+			productName = "Letter Reaction Time";
+			productReference = 0764651F177582D20087AD27 /* Letter Reaction Time.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0764653F177582D20087AD27 /* Letter Reaction TimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07646553177582D20087AD27 /* Build configuration list for PBXNativeTarget "Letter Reaction TimeTests" */;
+			buildPhases = (
+				0764653C177582D20087AD27 /* Sources */,
+				0764653D177582D20087AD27 /* Frameworks */,
+				0764653E177582D20087AD27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07646545177582D20087AD27 /* PBXTargetDependency */,
+			);
+			name = "Letter Reaction TimeTests";
+			productName = "Letter Reaction TimeTests";
+			productReference = 07646540177582D20087AD27 /* Letter Reaction TimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07646517177582D20087AD27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Justin Jia";
+				TargetAttributes = {
+					0764653F177582D20087AD27 = {
+						TestTargetID = 0764651E177582D20087AD27;
+					};
+				};
+			};
+			buildConfigurationList = 0764651A177582D20087AD27 /* Build configuration list for PBXProject "Letter Reaction Time" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07646516177582D20087AD27;
+			productRefGroup = 07646520177582D20087AD27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0764651E177582D20087AD27 /* Letter Reaction Time */,
+				0764653F177582D20087AD27 /* Letter Reaction TimeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0764651D177582D20087AD27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0764652D177582D20087AD27 /* InfoPlist.strings in Resources */,
+				0764653B177582D20087AD27 /* Images.xcassets in Resources */,
+				07646533177582D20087AD27 /* Credits.rtf in Resources */,
+				07646539177582D20087AD27 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0764653E177582D20087AD27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0764654B177582D20087AD27 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0764651B177582D20087AD27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07646536177582D20087AD27 /* AppDelegate.m in Sources */,
+				0764652F177582D20087AD27 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0764653C177582D20087AD27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0764654D177582D20087AD27 /* Letter_Reaction_TimeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07646545177582D20087AD27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0764651E177582D20087AD27 /* Letter Reaction Time */;
+			targetProxy = 07646544177582D20087AD27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0764652B177582D20087AD27 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0764652C177582D20087AD27 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		07646531177582D20087AD27 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07646532177582D20087AD27 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		07646537177582D20087AD27 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07646538177582D20087AD27 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		07646549177582D20087AD27 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0764654A177582D20087AD27 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0764654E177582D20087AD27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0764654F177582D20087AD27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		07646551177582D20087AD27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Letter Reaction Time/Letter Reaction Time-Prefix.pch";
+				INFOPLIST_FILE = "Letter Reaction Time/Letter Reaction Time-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		07646552177582D20087AD27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Letter Reaction Time/Letter Reaction Time-Prefix.pch";
+				INFOPLIST_FILE = "Letter Reaction Time/Letter Reaction Time-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		07646554177582D20087AD27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Letter Reaction Time.app/Contents/MacOS/Letter Reaction Time";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Letter Reaction Time/Letter Reaction Time-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Letter Reaction TimeTests/Letter Reaction TimeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		07646555177582D20087AD27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Letter Reaction Time.app/Contents/MacOS/Letter Reaction Time";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Letter Reaction Time/Letter Reaction Time-Prefix.pch";
+				INFOPLIST_FILE = "Letter Reaction TimeTests/Letter Reaction TimeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0764651A177582D20087AD27 /* Build configuration list for PBXProject "Letter Reaction Time" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0764654E177582D20087AD27 /* Debug */,
+				0764654F177582D20087AD27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07646550177582D20087AD27 /* Build configuration list for PBXNativeTarget "Letter Reaction Time" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07646551177582D20087AD27 /* Debug */,
+				07646552177582D20087AD27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		07646553177582D20087AD27 /* Build configuration list for PBXNativeTarget "Letter Reaction TimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07646554177582D20087AD27 /* Debug */,
+				07646555177582D20087AD27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07646517177582D20087AD27 /* Project object */;
+}
