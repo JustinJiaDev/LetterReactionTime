@@ -104,7 +104,7 @@
 {
     [self.bButton setHidden:YES];
     dispatch_async(dispatch_get_global_queue(0, 0), ^{
-//        [NSThread sleepForTimeInterval:1];
+        [NSThread sleepForTimeInterval:1];
         dispatch_async(dispatch_get_main_queue(), ^{
             [self start];
             [self.vButton setHidden:NO];
