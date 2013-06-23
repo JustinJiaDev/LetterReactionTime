@@ -54,6 +54,8 @@
 		0764654C177582D20087AD27 /* Letter_Reaction_TimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Letter_Reaction_TimeTests.m; sourceTree = "<group>"; };
 		07646556177587560087AD27 /* VocabSources.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = VocabSources.plist; sourceTree = "<group>"; };
 		0764655D177593D80087AD27 /* FontDescriptions.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = FontDescriptions.plist; sourceTree = "<group>"; };
+		076465601776B3B00087AD27 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
+		076465611776B3CB0087AD27 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,7 +139,9 @@
 				0764652B177582D20087AD27 /* InfoPlist.strings */,
 				0764652E177582D20087AD27 /* main.m */,
 				07646530177582D20087AD27 /* Letter Reaction Time-Prefix.pch */,
+				076465601776B3B00087AD27 /* README.md */,
 				07646531177582D20087AD27 /* Credits.rtf */,
+				076465611776B3CB0087AD27 /* .gitignore */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
