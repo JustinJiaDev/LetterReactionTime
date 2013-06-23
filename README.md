@@ -1,7 +1,7 @@
 Letter Reaction Time
 ===========================
 In the test, there are different terms in different fonts that will show up randomly. The tester need to recognize what part of speech the terms are.
-This program will generate a plist file output at the end of the test.
+This program will output a plist file at the end of the test.
 
 ##Features
 
