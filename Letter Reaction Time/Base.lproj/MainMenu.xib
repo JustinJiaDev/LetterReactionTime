@@ -474,15 +474,15 @@
             <windowCollectionBehavior key="collectionBehavior" fullScreenPrimary="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="456" y="217" width="558" height="452"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="900"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="878"/>
             <view key="contentView" id="d31-08-ViV">
                 <rect key="frame" x="0.0" y="0.0" width="558" height="452"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <textField verticalHuggingPriority="750" mirrorLayoutDirectionWhenInternationalizing="always" translatesAutoresizingMaskIntoConstraints="NO" id="5Wf-CN-dir">
-                        <rect key="frame" x="-3" y="183" width="564" height="86"/>
+                        <rect key="frame" x="-3" y="183" width="565" height="86"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" placeholderString="" id="Mjn-m5-nLn">
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="terms shows here" placeholderString="" id="Mjn-m5-nLn">
                             <font key="font" size="72" name="HelveticaNeue-Light"/>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -500,9 +500,9 @@
                         </buttonCell>
                     </button>
                     <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="v3K-KV-w0S">
-                        <rect key="frame" x="88" y="54" width="382" height="17"/>
+                        <rect key="frame" x="225" y="54" width="109" height="17"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Be prepared, experiment will start after you tap the button." id="iwO-JW-NbE">
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="hint shows here" id="iwO-JW-NbE">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" red="0.63921570780000003" green="0.2823529541" blue="0.3058823645" alpha="1" colorSpace="deviceRGB"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -544,23 +544,17 @@
                             <string key="keyEquivalent">n</string>
                         </buttonCell>
                     </button>
-                    <button verticalHuggingPriority="750" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mrn-Br-4rq">
+                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="mrn-Br-4rq">
                         <rect key="frame" x="230" y="102" width="98" height="17"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <constraints>
-                            <constraint firstAttribute="width" constant="98" id="Bn8-Wj-O1H"/>
-                        </constraints>
                         <buttonCell key="cell" type="inline" title="save results" bezelStyle="inline" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="zV2-gp-UEy">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="smallSystemBold"/>
                         </buttonCell>
                     </button>
-                    <button verticalHuggingPriority="750" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eKE-8K-EB2">
+                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="eKE-8K-EB2">
                         <rect key="frame" x="230" y="78" width="98" height="17"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <constraints>
-                            <constraint firstAttribute="width" constant="98" id="50D-Sq-D9u"/>
-                        </constraints>
                         <buttonCell key="cell" type="inline" title="start again" bezelStyle="inline" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="S40-dG-OBW">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="smallSystemBold"/>
@@ -568,11 +562,15 @@
                     </button>
                 </subviews>
                 <constraints>
+                    <constraint firstItem="eKE-8K-EB2" firstAttribute="leading" secondItem="mrn-Br-4rq" secondAttribute="leading" id="1Ec-cg-8Z7"/>
                     <constraint firstItem="yS6-6E-F02" firstAttribute="top" secondItem="cif-vH-q6y" secondAttribute="bottom" constant="8" symbolic="YES" id="911-YM-nMc"/>
                     <constraint firstItem="wMW-BO-Qra" firstAttribute="bottom" secondItem="d31-08-ViV" secondAttribute="bottom" id="BLS-NG-05r"/>
+                    <constraint firstItem="eKE-8K-EB2" firstAttribute="trailing" secondItem="mrn-Br-4rq" secondAttribute="trailing" id="C7Q-Pb-g59"/>
                     <constraint firstItem="v3K-KV-w0S" firstAttribute="centerX" secondItem="d31-08-ViV" secondAttribute="centerX" id="EDu-na-Zgw"/>
+                    <constraint firstItem="eKE-8K-EB2" firstAttribute="leading" secondItem="cif-vH-q6y" secondAttribute="leading" id="FNa-oQ-SwK"/>
                     <constraint firstItem="wMW-BO-Qra" firstAttribute="centerX" secondItem="cif-vH-q6y" secondAttribute="centerX" id="FVE-bz-lmz"/>
                     <constraint firstItem="5Wf-CN-dir" firstAttribute="leading" secondItem="d31-08-ViV" secondAttribute="leading" id="Fmh-kx-abU"/>
+                    <constraint firstItem="eKE-8K-EB2" firstAttribute="top" secondItem="mrn-Br-4rq" secondAttribute="bottom" constant="8" symbolic="YES" id="FsO-tM-Mnj"/>
                     <constraint firstItem="yS6-6E-F02" firstAttribute="leading" secondItem="wMW-BO-Qra" secondAttribute="trailing" constant="8" symbolic="YES" id="Lnq-es-MPx"/>
                     <constraint firstItem="wMW-BO-Qra" firstAttribute="centerX" secondItem="v3K-KV-w0S" secondAttribute="centerX" id="PXD-c3-etR"/>
                     <constraint firstItem="5Wf-CN-dir" firstAttribute="centerX" secondItem="v3K-KV-w0S" secondAttribute="centerX" id="QE0-vg-pju"/>
@@ -580,11 +578,64 @@
                     <constraint firstItem="5Wf-CN-dir" firstAttribute="centerY" secondItem="d31-08-ViV" secondAttribute="centerY" id="XXW-HC-0qF"/>
                     <constraint firstItem="wMW-BO-Qra" firstAttribute="leading" secondItem="udd-ul-3xK" secondAttribute="trailing" constant="8" symbolic="YES" id="YAW-nx-KV6"/>
                     <constraint firstItem="wMW-BO-Qra" firstAttribute="centerY" secondItem="udd-ul-3xK" secondAttribute="centerY" id="Zfr-Yr-Q96"/>
+                    <constraint firstItem="eKE-8K-EB2" firstAttribute="trailing" secondItem="cif-vH-q6y" secondAttribute="trailing" id="bUf-yA-Tsj"/>
                     <constraint firstItem="udd-ul-3xK" firstAttribute="baseline" secondItem="yS6-6E-F02" secondAttribute="baseline" id="feG-0q-d78"/>
+                    <constraint firstItem="v3K-KV-w0S" firstAttribute="top" secondItem="eKE-8K-EB2" secondAttribute="bottom" constant="8" symbolic="YES" id="nbP-Bv-LGx"/>
                     <constraint firstItem="cif-vH-q6y" firstAttribute="top" secondItem="v3K-KV-w0S" secondAttribute="bottom" constant="8" symbolic="YES" id="och-9V-ngB"/>
                     <constraint firstItem="wMW-BO-Qra" firstAttribute="top" secondItem="cif-vH-q6y" secondAttribute="bottom" constant="2" id="zgU-Sv-k4X"/>
                 </constraints>
             </view>
         </window>
     </objects>
+    <classes>
+        <class className="AppDelegate" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/AppDelegate.h"/>
+            <relationships>
+                <relationship kind="action" name="bButtonTapped:"/>
+                <relationship kind="action" name="nButtonTapped:"/>
+                <relationship kind="action" name="saveResultsButtonTapped:"/>
+                <relationship kind="action" name="startAgainButtonTapped:"/>
+                <relationship kind="action" name="startButtonTapped:"/>
+                <relationship kind="action" name="vButtonTapped:"/>
+                <relationship kind="outlet" name="bButton" candidateClass="NSButton"/>
+                <relationship kind="outlet" name="hint" candidateClass="NSTextField"/>
+                <relationship kind="outlet" name="nButton" candidateClass="NSButton"/>
+                <relationship kind="outlet" name="saveResultsButton" candidateClass="NSButton"/>
+                <relationship kind="outlet" name="startAgainButton" candidateClass="NSButton"/>
+                <relationship kind="outlet" name="startButton" candidateClass="NSButton"/>
+                <relationship kind="outlet" name="textField" candidateClass="NSTextField"/>
+                <relationship kind="outlet" name="vButton" candidateClass="NSButton"/>
+                <relationship kind="outlet" name="window" candidateClass="NSWindow"/>
+            </relationships>
+        </class>
+        <class className="NSDocument">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSDocument.h"/>
+            <relationships>
+                <relationship kind="action" name="browseDocumentVersions:"/>
+                <relationship kind="action" name="duplicateDocument:"/>
+                <relationship kind="action" name="lockDocument:"/>
+                <relationship kind="action" name="moveDocument:"/>
+                <relationship kind="action" name="moveDocumentToUbiquityContainer:"/>
+                <relationship kind="action" name="printDocument:"/>
+                <relationship kind="action" name="renameDocument:"/>
+                <relationship kind="action" name="revertDocumentToSaved:"/>
+                <relationship kind="action" name="runPageLayout:"/>
+                <relationship kind="action" name="saveDocument:"/>
+                <relationship kind="action" name="saveDocumentAs:"/>
+                <relationship kind="action" name="saveDocumentTo:"/>
+                <relationship kind="action" name="saveDocumentToPDF:"/>
+                <relationship kind="action" name="unlockDocument:"/>
+            </relationships>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="NSTextView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSTextView.h"/>
+            <relationships>
+                <relationship kind="action" name="orderFrontSharingServicePicker:"/>
+                <relationship kind="action" name="toggleQuickLookPreviewPanel:"/>
+            </relationships>
+        </class>
+    </classes>
 </document>

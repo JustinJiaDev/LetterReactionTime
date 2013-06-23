@@ -52,7 +52,7 @@
     [self.textField setHidden:NO];
     [self.startButton setHidden:NO];
     [self.hint setHidden:NO];
-    self.hint.stringValue = @"Be prepared, experiment will start after you tap the button.";
+    self.hint.stringValue = NSLocalizedString(@"Be prepared, experiment will start after you tap the button.", @"Prepare To Shart Hint");
     
     [self.vButton setHidden:YES];
     [self.nButton setHidden:YES];
@@ -88,9 +88,9 @@
         NSURL *url = [openDlg.URL URLByAppendingPathComponent:[NSString stringWithFormat:@"results%@.plist",[NSDate date]]];
         
         if ([self.results writeToURL:url atomically:YES]) {
-            self.hint.stringValue = @"Saved!";
+            self.hint.stringValue = NSLocalizedString(@"Saved!", @"output saved");
         } else {
-            self.hint.stringValue = @"Failed!";
+            self.hint.stringValue = NSLocalizedString(@"Failed!", @"output failed to save");
         }
     }
 }
@@ -172,7 +172,7 @@
     [self.hint setHidden:NO];
     [self.startAgainButton setHidden:NO];
     [self.saveResultsButton setHidden:NO];
-    self.hint.stringValue = @"Test finished! Thank you!";
+    self.hint.stringValue = NSLocalizedString(@"Test finished! Thank you!", @"Test Finished Hint");
 }
 
 @end
