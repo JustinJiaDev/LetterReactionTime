@@ -1,24 +1,26 @@
-Letter Reaction Time
-===========================
-In the test, there are different terms in different fonts that will show up randomly. The tester need to recognize what part of speech the terms are.
-This program will output a plist file at the end of the test.
+# Letter Reaction Time
 
-##Features
+This program is designed to test fonts' readability and legibility.
 
-**You can specify the fonts you want to test and the terms you want to use in this program. Just replace the default settings stored in the plist files**
+After the tester pressed a button, a random term in a random font will appear on the screen. The tester needs to recognize the **Part of Speech** of the term as soon as possible. Then the tester needs to repeat this progress until every term has appeared once.
 
-1. **VocabSources.plist** You can add your terms here. Note: Noun terms under Nouns array, verb terms under Verbs array.
-2. **FontDescriptions.plist** You can add your fonts here. Note: You can add multiply fonts.
+## Features (To Researchers)
 
-##How to use it
+You can change the fonts you want to test and terms you want to use in this program.
 
-**Please use hot keys**
+1. You can change the terms this program used in ```VocabSources.plist```.
+2. You can change the fonts this program used in ```FontDescriptions.plist```. You can have more than two fonts.
 
-Tap **V** if you think the term showed on the screen is a verb.
-Tap **N** if you think the term showed on the screen is a noun.
-Tap **B** to tell the program to show the next term.
+This program will output a plist file after a tester finished his test.
+
+## How to Use (To Testers)
+
+- Tap **V** if you think the term displayed on the screen is a verb.
+- Tap **N** if you think the term displayed on the screen is a noun.
+- Tap **B** to display the next term.
 
 ## Licensing 
+
 Copyright (C) 2013 by Bowei Jia (Justin).
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -38,6 +40,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
-
-
-
