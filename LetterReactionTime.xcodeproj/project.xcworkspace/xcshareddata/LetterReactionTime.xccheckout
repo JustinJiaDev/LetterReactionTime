@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>CD3DD089-D75D-46CA-9F1D-B9E29A3E4874</string>
+	<string>AEA9EE06-09E8-42A7-A835-7C9A8EBECC90</string>
 	<key>IDESourceControlProjectName</key>
 	<string>LetterReactionTime</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>C53DFC8D-7F76-411E-A38C-5C2DBE565CD7</key>
-		<string>https://github.com/everte-J/Letter-Reaction-Time.git</string>
+		<key>CC04F11B-B22C-45FD-A3D6-013018337D17</key>
+		<string>https://github.com/everte-J/LetterReactionTime.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>LetterReactionTime.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>C53DFC8D-7F76-411E-A38C-5C2DBE565CD7</key>
+		<key>CC04F11B-B22C-45FD-A3D6-013018337D17</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/everte-J/Letter-Reaction-Time.git</string>
+	<string>https://github.com/everte-J/LetterReactionTime.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>C53DFC8D-7F76-411E-A38C-5C2DBE565CD7</string>
+	<string>CC04F11B-B22C-45FD-A3D6-013018337D17</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>C53DFC8D-7F76-411E-A38C-5C2DBE565CD7</string>
+			<string>CC04F11B-B22C-45FD-A3D6-013018337D17</string>
 			<key>IDESourceControlWCCName</key>
-			<string>Letter-Reaction-Time</string>
+			<string>LetterReactionTime</string>
 		</dict>
 	</array>
 </dict>
