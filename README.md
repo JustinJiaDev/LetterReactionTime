@@ -1,17 +1,17 @@
-# Letter Reaction Time
+# LetterReactionTime
 
-This program is designed to test fonts' readability and legibility.
+This app is designed to measure different fonts' legibility.
 
-After the tester pressed a button, a random term in a random font will appear on the screen. The tester needs to recognize the **Part of Speech** of the term as soon as possible. Then the tester needs to repeat this progress until every term has appeared once.
+A random term will appear on the screen, and the tester needs to recognize the *part of speech* of this term as soon as possible.
 
 ## Features (To Researchers)
 
-You can change the fonts you want to test and terms you want to use in this program.
+You can specify the fonts you want to measure and the terms you want to use in this app.
 
-1. You can change the terms this program used in ```VocabSources.plist```.
-2. You can change the fonts this program used in ```FontDescriptions.plist```. You can have more than two fonts.
-
-This program will output a plist file after a tester finished his test.
+1. You can change the terms in `VocabSources.plist`.
+2. You can change the fonts in `FontDescriptions.plist`. You can measure more than two fonts at once.
+ 
+This app will output a plist file after a tester finishes his test.
 
 ## How to Use (To Testers)
 
@@ -21,7 +21,7 @@ This program will output a plist file after a tester finished his test.
 
 ## Licensing
 
-Copyright (C) 2013 by Bowei Jia (Justin).
+Copyright (C) 2013 by Justin Jia.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
