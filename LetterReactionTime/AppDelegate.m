@@ -1,6 +1,6 @@
 //
 //  AppDelegate.m
-//  Letter Reaction Time
+//  LetterReactionTime
 //
 //  MIT License
 //
