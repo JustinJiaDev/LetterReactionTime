@@ -85,12 +85,12 @@
 				076F48061939CB8100D8B209 /* Xibs */,
 				076F48041939CB6E00D8B209 /* Data */,
 				076F48031939CB6500D8B209 /* Resources */,
-				07646529177582D20087AD27 /* Supporting Files */,
+				07646529177582D20087AD27 /* SupportingFiles */,
 			);
 			path = LetterReactionTime;
 			sourceTree = "<group>";
 		};
-		07646529177582D20087AD27 /* Supporting Files */ = {
+		07646529177582D20087AD27 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
 				07646531177582D20087AD27 /* Credits.rtf */,
@@ -102,7 +102,7 @@
 				076465601776B3B00087AD27 /* README.md */,
 				076465611776B3CB0087AD27 /* .gitignore */,
 			);
-			name = "Supporting Files";
+			name = SupportingFiles;
 			sourceTree = "<group>";
 		};
 		076F48031939CB6500D8B209 /* Resources */ = {
