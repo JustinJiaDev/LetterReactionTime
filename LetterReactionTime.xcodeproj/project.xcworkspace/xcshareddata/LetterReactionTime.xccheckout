@@ -10,29 +10,29 @@
 	<string>LetterReactionTime</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>CC04F11B-B22C-45FD-A3D6-013018337D17</key>
-		<string>https://github.com/everte-J/LetterReactionTime.git</string>
+		<key>CEAB20D5D64C7452A6816D0B961DA5AAE4D844DD</key>
+		<string>https://github.com/JustinJiaDev/LetterReactionTime.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>LetterReactionTime.xcodeproj/project.xcworkspace</string>
+	<string>LetterReactionTime.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>CC04F11B-B22C-45FD-A3D6-013018337D17</key>
+		<key>CEAB20D5D64C7452A6816D0B961DA5AAE4D844DD</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/everte-J/LetterReactionTime.git</string>
+	<string>https://github.com/JustinJiaDev/LetterReactionTime.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>CC04F11B-B22C-45FD-A3D6-013018337D17</string>
+	<string>CEAB20D5D64C7452A6816D0B961DA5AAE4D844DD</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>CC04F11B-B22C-45FD-A3D6-013018337D17</string>
+			<string>CEAB20D5D64C7452A6816D0B961DA5AAE4D844DD</string>
 			<key>IDESourceControlWCCName</key>
 			<string>LetterReactionTime</string>
 		</dict>
