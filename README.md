@@ -1,27 +1,29 @@
-# LetterReactionTime
+# Letter Reaction Time
 
-This app is designed to measure different fonts' legibility.
+Compare the legibility of different typefaces.
 
-A random term will appear on the screen, and the tester needs to recognize the *part of speech* of this term as soon as possible.
+1. A random term appears on the screen.
+2. The tester needs to recognize the *part of speech* of the term by tapping **V** or **N**.
+3. The app records the response time and correctness of the answer.
 
-## Features (To Researchers)
+## Features (For Researchers)
 
-You can specify the fonts you want to measure and the terms you want to use in this app.
+Researchers can configure typefaces and terms used in the app.
 
-1. You can change the terms in `VocabSources.plist`.
-2. You can change the fonts in `FontDescriptions.plist`. You can measure more than two fonts at once.
+1. Add more terms in `VocabSources.plist`.
+2. Add more typefaces in `FontDescriptions.plist` (can be more than 2).
  
-This app will output a plist file after a tester finishes his test.
+The app will output a plist file after a test.
 
-## How to Use (To Testers)
+## How to Use (For Testers)
 
-- Tap **V** if you think the term displayed on the screen is a verb.
-- Tap **N** if you think the term displayed on the screen is a noun.
-- Tap **B** to display the next term.
+- Press **V** if the term displayed on the screen is a verb.
+- Press **N** if the term displayed on the screen is a noun.
+- Press **B** to continue.
 
 ## Licensing
 
-Copyright (C) 2013 by Justin Jia.
+Copyright (C) 2013 by Bowei Jia (Justin).
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
